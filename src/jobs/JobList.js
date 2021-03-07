@@ -17,6 +17,7 @@ State:
 
 App -> Routes -> JobList -> JobCard
 */
+
 function JobList({ applyToJob }) {
   const [jobs, setJobs] = useState(null);
   const [isLoading, setIsLoading] = useState(true);

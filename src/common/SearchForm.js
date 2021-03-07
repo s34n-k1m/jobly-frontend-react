@@ -8,6 +8,7 @@ State: formData {searchTerm:""}
 
 App -> CompanyList, JobList -> SearchForm
 */
+
 function SearchForm({ search }) {
   const [formData, setFormData] = useState({ searchTerm: "" });
 

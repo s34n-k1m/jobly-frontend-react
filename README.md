@@ -34,4 +34,4 @@ My pair for server side was @Win-C
 My pair for client side was @jonathanlei  
 
 # Acknowledgments
-Although I wrote a version of the backend separately, the deployed version of this app uses the backend written by Rithm School. The reason was so that each pair could start with the same codebase when building out the React frontend.
+Although I wrote a [version](https://github.com/Win-C/jobly) of the backend separately, the deployed version of this app uses the backend written by Rithm School. The reason was so that each pair could start with the same codebase when building out the React frontend.

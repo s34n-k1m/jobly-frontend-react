@@ -26,7 +26,6 @@ function CompanyDetail({ applyToJob }) {
         const resCompany = await JoblyApi.getCompany(handle);
         setCompany(resCompany);
       } catch (err) {
-        //have a state for company not found, true and false
         setIsCompanyNotFound(true);
       }
     }
