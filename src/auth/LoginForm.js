@@ -13,7 +13,7 @@ State:
 App -> Routes -> LoginForm
 */
 
-const initialFormData = { username: "", password: "" }
+const initialFormData = { username: "demouser", password: "demopassword" }
 
 function LoginForm({ login }) {
   const [formData, setFormData] = useState(initialFormData);
